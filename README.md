@@ -1,7 +1,8 @@
 ## Event Scheduler
 
 Developed a daily scheduling application designed to manage events within a 24-hour day. The application uses a Scheduler class to track events and prevent any overlapping schedules, ensuring that each scheduled event has a unique time slot.
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/9b47e126-d7a5-4397-9c6d-75d19f274a08)
+
 
 ## Key Components
 
