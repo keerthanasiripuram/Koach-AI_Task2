@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    padding: 0;
+    margin: 0;
+    background-image: url('../../public/scheduler.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.inputContainer
+{
+    border:2px solid rgb(72, 128, 152);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    height: 270px;
+    justify-content: space-between;
+}
+h2{
+    font-family: cursive;
+}
+.startTime
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn
+{
+    color: white;
+    background-color:#5d9eb4;
+    outline:none;
+    cursor: pointer;
+    border: none;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius:0.3rem;
+    font-size: 1rem;
+}
+
+.formStyles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input{
+    height: 1.5rem;
+    width: 4rem;
+}
+.text
+{
+    font-size: 1.1rem;
+}
+.outputContainer
+{
+    border:2px solid rgb(72, 128, 152);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    height: 270px;
+    overflow-y: auto;
+}
